@@ -1,0 +1,211 @@
+/******************       EXTRA SMALL (XS) screen sizes following bootstrap breakpoints            ********************/
+@media screen and (max-width:576px){
+    body{
+        font-family: 'Oxygen', sans-serif;
+        background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    }
+    .input-container{
+        margin: 0px auto;
+        width: 100%;
+    }
+    .addy{
+        width: 100%;
+    }
+    .map{
+        width: 600px;
+        height: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3px;
+    }
+    .right-now{
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    .weather-data{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .weather-stats{
+        margin-bottom: 10px;
+    }
+    p{
+        margin: 0px;
+    }
+    .stats{
+        padding-top: 15px;
+        font-size: large;
+        font-weight: bolder;
+    }
+}
+
+/**********************     SMALL (SM) screen sizes following bootstrap breakpoints            ************************/
+@media screen and (min-width:576px) and (max-width:768px){
+    body{
+        font-family: 'Oxygen', sans-serif;
+        background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    }
+    .input-container{
+        margin: 0px auto;
+        width: 100%;
+    }
+    .addy{
+        width: 100%;
+    }
+    .map{
+        width: 600px;
+        height: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3px;
+    }
+    .right-now{
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    .weather-data{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .weather-stats{
+        margin-bottom: 10px;
+    }
+    p{
+        margin: 0px;
+    }
+    .stats{
+        padding-top: 15px;
+        font-size: large;
+        font-weight: bolder;
+    }
+}
+
+/**********************     MEDIUM (MD) screen sizes following bootstrap breakpoints            ***********************/
+@media screen and (min-width:768px) and (max-width:992px){
+    body{
+        font-family: 'Oxygen', sans-serif;
+        background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    }
+    .input-container{
+        margin: 0px auto;
+        width: 100%;
+    }
+    .addy{
+        width: 100%;
+    }
+    .map{
+        width: 600px;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3px;
+    }
+    .right-now{
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    .weather-data{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .weather-stats{
+        margin-bottom: 10px;
+    }
+    p{
+        margin: 0px;
+    }
+    .stats{
+        padding-top: 15px;
+        font-size: large;
+        font-weight: bolder;
+    }
+}
+
+/**********************     LARGE (LG) screen sizes following bootstrap breakpoints            ************************/
+@media screen and (min-width:992px) and (max-width:1200px){
+    body{
+        font-family: 'Oxygen', sans-serif;
+        background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    }
+    .input-container{
+        margin: 0px auto;
+        width: 100%;
+    }
+    .addy{
+        width: 100%;
+    }
+    .map{
+        width: 600px;
+        height: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3px;
+    }
+    .right-now{
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    .weather-data{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .weather-stats{
+        margin-bottom: 10px;
+    }
+    p{
+        margin: 0px;
+    }
+    .stats{
+        padding-top: 15px;
+        font-size: large;
+        font-weight: bolder;
+    }
+}
+
+/*****************     EXTRA LARGE & UP (XL -XXL) screen sizes following bootstrap breakpoints       ******************/
+@media screen and (min-width:1200px){
+    header{
+        height: 100px;
+    }
+    body{
+        font-family: 'Oxygen', sans-serif;
+        background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    }
+    .input-container{
+        margin: 0px auto;
+        width: 100%;
+    }
+    .addy{
+        width: 100%;
+    }
+    .map{
+        width: 600px;
+        height: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3px;
+    }
+    .right-now{
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    .weather-data{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .weather-stats{
+        margin-bottom: 10px;
+    }
+    p{
+        margin: 0px;
+    }
+    .stats{
+        padding-top: 15px;
+        font-size: large;
+        font-weight: bolder;
+    }
+    footer{
+        height: 100px;
+        float: bottom;
+    }
+}
