@@ -1,4 +1,4 @@
-# :sunny: WeatherMap :world_map:
+# :sunny: WeatherMap :world_map: #3f87a6
 
 ### Description
 
