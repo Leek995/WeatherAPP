@@ -13,9 +13,11 @@ The **Back-End Technologies** relies heavily on the data from the *REST API's* f
 Below is a link to a **video demo** that walks through the functionality of the application.
 [Click here]()
 
-To view the application and it's source code on your local device. You will need to clone the repo by following the directions below. WeatherMap uses two API's. Therefore, two API key's are needed from both [Map Box](https://docs.mapbox.com/help/getting-started/access-tokens/) [OpenWeather](https://openweathermap.org/appid) to access the application.
-- Copy SSH key by clicking the green drop down button titled code.
-- type ```git clone``` and paste key into working directory.
+To view the application and it's source code on your local device. You will need to clone the repo by following the directions below. WeatherMap uses two API's. Therefore, two API key's are needed from both [Map Box](https://docs.mapbox.com/help/getting-started/access-tokens/) & [OpenWeather](https://openweathermap.org/appid) to access the application.
+- Copy SSH key by clicking the green drop down button titled, code.
+- Type ```git clone``` and paste key into working directory in terminal.
+- Insert keys directly into main js file by replacing constant variables named token.
+- Run the application through browser.
 
 ### Instructions
 1. Once the map loads, find the blue marker/pin on the map.
