@@ -4,7 +4,7 @@
 
 **WeatherMap** is an application that gathers weather data from all over the world in a format that is easy to read, control, and adjust courtesy of the collaboration of Map Box and OpenWeather API. At the fingertips of the users are a variety of options to find the desired location's weather. One of the most impressive features is a 3D globe with zoomable options that converts  to an 2D format. The map is equipped with a marker to capture precise coordinates. The user also has the ability to traverse the globe using search functionality. Once the user has decided on their location they will be provided with weather data from OpenWeather’s API in said area simultaneously.
 
-### [#f69d3c](Technologies)
+### Technologies
 The **Front-End Technologies** that make all the magic  possible are *JavaScript* which enables the responsiveness of features like rendering of data asynchronously, and *JQuery* for efficient traversal around the application and as well as within *Map Box* and *OpenWeather API*. The User Interface foundation utilize *Bootstrap5* for its *grid system* allowing precise positioning of the data onto the page. Lastly, *CSS4* which makes the application unique in its own merit improving user experience tremendously.
 
 The **Back-End Technologies** relies heavily on the data from the *REST API's* for it's capability. The data captured is given in real-time and not stored at a specific location.
