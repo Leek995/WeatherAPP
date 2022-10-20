@@ -25,7 +25,7 @@ To view the application and it's source code on your local device. You will need
 5. The second option to zoom is by using the map control on the physical map.
 6. If the location is known, you can also search for destination by using the search bar at the bottom of the map.
 
-#### Next version
+### Next version
 1. Add the geolocator to the physical map. 
 2. Integrate the marker and geolocator with the map.
 3. Remove the search bar and utilize the API search functioanilty for the cosmetic abilitiy to include on the map.
