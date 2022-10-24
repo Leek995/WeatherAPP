@@ -35,16 +35,120 @@
         <div class="body">
             <div class="landingContainer">
                 <h1 class="text">WeatherAtlas</h1>
+                <p class="landingText">Drop pin
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pin-fill" viewBox="0 0 16 16">
+                        <path d="M4.146.146A.5.5 0 0 1 4.5 0h7a.5.5 0 0 1 .5.5c0 .68-.342 1.174-.646 1.479-.126.125-.25.224-.354.298v4.431l.078.048c.203.127.476.314.751.555C12.36 7.775 13 8.527 13 9.5a.5.5 0 0 1-.5.5h-4v4.5c0 .276-.224 1.5-.5 1.5s-.5-1.224-.5-1.5V10h-4a.5.5 0 0 1-.5-.5c0-.973.64-1.725 1.17-2.189A5.921 5.921 0 0 1 5 6.708V2.277a2.77 2.77 0 0 1-.354-.298C4.342 1.674 4 1.179 4 .5a.5.5 0 0 1 .146-.354z"/>
+                    </svg>
+                </p>
                 <p class="landingText"><a href="#" >View 5-Day forecast anywhere around the world</a>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
                     </svg>
                 </p>
             </div>
         </div>
         <div class="mapContainer">
+            <h1 class="city">Dallas, Texas
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-map" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103zM10 1.91l-4-.8v12.98l4 .8V1.91zm1 12.98 4-.8V1.11l-4 .8v12.98zm-6-.8V1.11l-4 .8v12.98l4-.8z"/>
+                </svg>
+            </h1>
+<!--            <div style="float: top" id="openweathermap-widget-15"></div>-->
+<!--            <div class="widget" id="openweathermap-widget-11"></div>-->
             <div id='map' class="map"></div>
-            <div class="widget" id="openweathermap-widget-11"></div>
+            <h1 class="forecastTitle">5 Day
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                    <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
+                    <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                </svg>
+            </h1>
+            <div class="flex">
+                <div class="card">
+                    <div class="cardHeader">Title</div>
+                    <div class="cardDetails">
+                        <div class="container text-center">
+                            <div class="row">
+                                <div class="col">
+                                    temp.
+                                </div>
+                                <div class="col">
+                                    details
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardFooter"></div>
+                </div>
+                <div class="card">
+                    <div class="cardHeader">Title</div>
+                    <div class="cardDetails">
+                        <div class="container text-center">
+                            <div class="row">
+                                <div class="col">
+                                    temp.
+                                </div>
+                                <div class="col">
+                                    details
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardFooter"></div>
+                </div>
+                <div class="card">
+                    <div class="cardHeader">Title</div>
+                    <div class="cardDetails">
+                        <div class="container text-center">
+                            <div class="row">
+                                <div class="col">
+                                    temp.
+                                </div>
+                                <div class="col">
+                                    details
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardFooter"></div>
+                </div>
+                <div class="card">
+                    <div class="cardHeader">Title</div>
+                    <div class="cardDetails">
+                        <div class="container text-center">
+                            <div class="row">
+                                <div class="col">
+                                    temp.
+                                </div>
+                                <div class="col">
+                                   <p class="cardDetailsForecast"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardFooter"></div>
+                </div>
+                <div class="card">
+                    <div class="cardHeader">Title</div>
+                    <div class="cardDetails">
+                        <div class="container text-center">
+                            <div class="row">
+                                <div class="col">
+                                    temp.
+                                </div>
+                                <div class="col">
+                                    details
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardFooter"></div>
+                </div>
+            </div>
+
+
+
+
+
         </div>
     </main>
     <script src="../js/keys.js"></script>
@@ -68,9 +172,6 @@
             s.parentNode.insertBefore(script, s);
         })();
     </script>
-
-
-
 
 <script src="../js/mapbox-geocoder-utils.js"></script>
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
